@@ -81,6 +81,7 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-3">
+            
             <ModeToggle />
             <Button
               className="
@@ -91,7 +92,7 @@ export default function Navbar() {
                 transition-all
               "
             >
-              Hire Me
+              <a href="#contact"> Hire Me</a>
             </Button>
           </div>
 
