@@ -44,7 +44,7 @@ export default function About() {
   />
 
   {/* Photo */}
-  <div className="relative rounded-xl overflow-hidden bg-black">
+  <div className="relative  overflow-hidden rounded-3xl bg-black">
     <img
       src="https://i.ibb.co.com/7xmbNfSH/Whats-App-Image-2026-01-22-at-4-39-54-PM.jpg"
       alt="Atikul Islam Ashik"

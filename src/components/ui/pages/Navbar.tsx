@@ -52,9 +52,21 @@ export default function Navbar() {
             href="#home"
             className="text-lg sm:text-xl font-bold tracking-wide"
           >
-            <span className="bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text text-transparent">
-              Ashik.dev
-            </span>
+          <span
+  className="text-3xl  bg-gradient-to-r from-purple-500 to-cyan-400 
+  bg-clip-text text-transparent"
+  style={{
+    textShadow: `
+      1px 1px 0 #6b21a8,
+      2px 2px 0 #5b21b6,
+      3px 3px 0 #4c1d95,
+      4px 4px 10px rgba(0,0,0,0.6)
+    `
+  }}
+>
+  Ashik.dev
+</span>
+
           </a>
 
           {/* Desktop Links */}
